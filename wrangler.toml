@@ -1,6 +1,6 @@
-name = "awwbot"
+name = "listen-again"
 main = "./src/server.js"
-compatibility_date="2023-05-18"
+compatibility_date="2025-12-24"
 
 # [secrets]
 # DISCORD_TOKEN

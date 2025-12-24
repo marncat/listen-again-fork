@@ -1,7 +1,7 @@
 {
-  "name": "awwbot",
+  "name": "listen-again",
   "version": "1.0.0",
-  "description": "A simple discord bot that uses intents to post pictures from r/aww",
+  "description": "A simple discord bot used for managing the \"Listen Again\" event in the SSHS J-POP Discord.",
   "type": "module",
   "private": true,
   "main": "src/server.js",
@@ -15,7 +15,7 @@
     "publish": "wrangler deploy"
   },
   "keywords": [],
-  "author": "Justin Beckwith <justin.beckwith@gmail.com>",
+  "author": "Initial <dan.yun0821@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "discord-interactions": "^4.0.0",
