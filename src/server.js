@@ -222,7 +222,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: `**투표 종료!** (${songData.title})`,
+            content: `**투표 종료!** (${songData.title})\n**투표 결과**: ${currentSessionVotes}표`,
           },
         });
       }
